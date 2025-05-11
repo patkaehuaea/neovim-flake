@@ -546,16 +546,16 @@
     "plugin-nvim-bufferline-lua": {
       "flake": false,
       "locked": {
-        "lastModified": 1689661992,
-        "narHash": "sha256-0BJXUDGeUhPALEnPgO4ix+GgI/3P/Foiqi0tf2mgUXg=",
+        "lastModified": 1736870559,
+        "narHash": "sha256-ae4MB6+6v3awvfSUWlau9ASJ147ZpwuX1fvJdfMwo1Q=",
         "owner": "akinsho",
         "repo": "nvim-bufferline.lua",
-        "rev": "d24378edc14a675c820a303b4512af3bbc5761e9",
+        "rev": "655133c3b4c3e5e05ec549b9f8cc2894ac6f51b3",
         "type": "github"
       },
       "original": {
         "owner": "akinsho",
-        "ref": "v4.3.0",
+        "ref": "v4.9.1",
         "repo": "nvim-bufferline.lua",
         "type": "github"
       }

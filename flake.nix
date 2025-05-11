@@ -96,7 +96,7 @@
     plugin-nvim-tree-lua.flake = false;
 
     # Tablines
-    plugin-nvim-bufferline-lua.url = "github:akinsho/nvim-bufferline.lua?ref=v4.3.0";
+    plugin-nvim-bufferline-lua.url = "github:akinsho/nvim-bufferline.lua?ref=v4.9.1";
     plugin-nvim-bufferline-lua.flake = false;
 
     # Statuslines
