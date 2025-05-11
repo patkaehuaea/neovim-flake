@@ -83,13 +83,23 @@ in
           vim.opt.listchars:append({ space = "${cfg.indentBlankline.fillChar}" })
         ''}
 
-        require("indent_blankline").setup {
-          enabled = true,
-          char = "${cfg.indentBlankline.listChar}",
-          show_end_of_line = ${boolToString cfg.indentBlankline.showEndOfLine},
+        require("ibl").setup {
+            indent = {
+                char = "│",
+                tab_char = " ", -- You might need to specify a tab character
+            },
+            scope = {
+                enabled = true,
+            },
+            whitespace = {
+                remove_blankline_trail = false,
+            },
+          --enabled = true,
+          --char = "${cfg.indentBlankline.listChar}",
+          --show_end_of_line = ${boolToString cfg.indentBlankline.showEndOfLine},
 
-          use_treesitter = ${boolToString cfg.indentBlankline.useTreesitter},
-          show_current_context = ${boolToString cfg.indentBlankline.showCurrContext},
+          --use_treesitter = ${boolToString cfg.indentBlankline.useTreesitter},
+          --show_current_context = ${boolToString cfg.indentBlankline.showCurrContext},
         }
       '';
     })
