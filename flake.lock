@@ -1274,7 +1274,6 @@
       },
       "original": {
         "owner": "tidalcycles",
-        "ref": "master",
         "repo": "vim-tidal",
         "type": "github"
       }

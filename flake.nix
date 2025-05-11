@@ -1,7 +1,7 @@
 {
   description = "Jordan's Neovim Configuration";
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-24-11";
     flake-utils.url = "github:numtide/flake-utils";
     # For generating documentation website
     nmd.url = "sourcehut:~rycee/nmd";
